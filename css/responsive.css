@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1024px) and (max-width: 1152px) {
+
+}
+/* Tablet (Portrait) */
+/* Width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+.sub_header_wrapper .container {
+    padding:30px 0 !important;
+}
+.sub_header_wrapper .two_third, .sub_header_wrapper .one_third_last{
+    margin: 0 auto;
+    text-align: center;
+    width: 100% !important;   
+}
+
+#singlepage_nav {
+    margin-top: 18px;
+      float: none;
+}
+.panel-grid-cell {
+    width: 100% !important;
+     margin-bottom:60px;
+}
+.panel-grid-cell:last-child {
+    margin-bottom: 0 !important;
+}
+
+
+/* Default Gallery 
+------------------------------------------------------*/
+.gallery-item {
+    width: 33.30%!important;
+}
+/* blog */
+#sidebar li .description{
+    overflow:inherit;
+}
+#contact-form input, #contact-form textarea, #commentform input, #commentform textarea {
+    width: 96%!important;
+}
+#respond .one_half_last input{
+    width: 93%!important;
+}
+.isotope_gallery li{
+    width:32.6%;
+}
+.fullwidth.portfolio_fullwidth.portfolio_aside{
+    width: 100%;
+}
+.single_img_parallex_inner_text{
+    left: 0!important;
+}
+.portfolio5 li, .portfolio4 li{
+    width:33.2%!important;
+}
+#slidecaption h3{
+    font-size: 1.5em!important;
+}
+ .about_content .one_third, .about_content .one_third_last, .about_content .one_fourth, .about_content .one_fourth_last,  .contactpage .one_third, .contactpage .one_third_last
+{
+    width: 100%!important;
+    margin: 0 0 30px!important;
+
+}
+.blog-page-photogallery ul li {
+    width: 33.1%;
+}
+.fullwidth .portfolio-center-page-desc {
+	width:100%;
+}
+#search_form input{
+	padding:10px 0px;
+}
+#search_form button{
+	padding:0px 14px;
+}
+
+}
+
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+
+#mid_container_wrapper{
+    max-width: 94%!important;
+     padding: 20px;
+}
+.right_sidebar .page_sidebar{
+	margin-top:0px;
+	padding-top:0px;
+}
+
+/* Menu */
+.mobile_nav_icon{
+    display: block;
+}
+header, .left_toggle_content{
+    position: relative;
+}
+.nav_icon_container{
+    display: none;
+}
+.nav_menu_container{
+    margin-left: 0!important;
+}
+.nav_menu_container{
+    display: none;
+}
+.mobile_nav_icon {
+	background-color: #000000;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 2%;
+    position: relative;
+    text-align: right;
+    width: 96%;
+}
+.mobile_nav_icon i {
+    cursor: pointer;
+}
+.nav_menu_container{
+    width: 99.8%;
+    position: relative;
+}
+
+.left_toggle_content {
+    border-top: 1px solid rgba(204, 204, 204, 0.1);
+    margin-top: 30px;
+}
+
+.fluid_portfolio_wrapper {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    width: 100%!important;
+}
+.sub_header_wrapper, #mid_container_wrapper{
+    margin-left: 0;
+}
+/* Menu */
+
+nav .menu {
+ clear: both;
+    line-height: 32px;
+    margin: 0 auto;
+    min-height: 32px;
+    padding: 1%;
+    width: 98%;
+    
+ }
+
+.mobile_menu {
+    width: 280px;
+    margin: 0px auto;
+}
+.mobile_menu ul li {
+    padding: 5px;
+    text-align: left;
+}
+.mobile_menu ul {
+    list-style: none outside none;
+}
+.mobile_menu .sub-menu {
+    margin-left: 20px;
+}
+.mobile_menu .sub-menu li:before {
+    content: "--";
+    display: inline-block;
+    margin-right: 6px;
+}
+.mobile_menu li:before {
+    content: "-";
+    margin-right: 6px;
+}
+.mobile_menu .sub-menu ul.sub-menu li:before {
+    content: "---";
+}
+.mobile_menu li:last-child {
+    padding-bottom: 0;
+}
+.mobile_menu .current-menu-ancestor {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+nav .menu select {
+    background-color: #E4E4E4;
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 100%;
+}
+nav .menu select option {
+    padding-bottom:3px;
+}
+
+nav {
+    float:none;
+    padding:0!important;
+    top: 0;
+ }
+
+ nav a{
+    color: #fff;
+ }
+/* Header section
+----------------------------------------*/
+.sub_header h2, .sub_header p, #slidecaption h3{
+    text-align: center;
+    font-size: 2em!important;
+}
+
+.header_right_section, .header_left_section {
+    margin: 0 auto;
+    text-align: center;
+    float: none !important;
+    display:inherit;
+}
+
+.sub_header_wrapper{
+    padding:0px 20px !important;
+}
+.sub_header_wrapper .container{
+    padding:20px 0 !important;
+}
+.page_title_bg{
+    background-attachment: scroll!important;
+}
+.single_img_parallex_inner_text{
+    left: 0!important;
+}
+ /* Contact Form 
+ ------------------------------------------------------*/
+#contact-form input, #contact-form textarea {
+    width: 66%!important;
+}
+#contact-form{
+    background: none!important;
+    padding: 0px!important;
+    border:none;
+}
+.thumb-border{
+    display: none;
+}
+/* Gallery
+------------------------------------------------------*/
+.gallery-item {
+    width: 49.9%!important;
+}
+/* Sidebar 
+------------------------------------------------------*/
+.page_sidebar {
+    border:0px!important;
+    padding-right:0!important;
+    padding-left:0!important;
+}
+.page_sidebar:before {
+    content: "";
+}
+/* Portfolio
+------------------------------------------------------*/
+ul.portfolio_items li, ul.porfolio_items li, #relatedposts li {
+    width: 99.3% !important;
+}
+.Portfolio_gallery .two_third{
+    margin-bottom:0!important;
+}
+.fullwidth.portfolio_fullwidth.portfolio_aside{
+    width: 100%;
+}
+.isotope_gallery li, .isotope_gallery li, .single_img .grid_gallery li{
+    width:49.5%;
+}
+
+/* image boxes */
+.image-boxes .description{
+    overflow: inherit!important;
+    text-align: center!important;
+}
+.image-boxes .alignleft, .image-boxes .alignright{
+    float: none!important;
+    display: table!important;
+    margin: 0px auto;
+
+}
+.custom_title h2:before, .custom_title h2:after{
+    display: none!important;
+}
+
+ /* Columns
+----------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, .pricing_table .one_third, .pricing_table .one_fourth
+{
+    width: 100%!important;
+    margin: 0 0 30px!important;
+}
+
+ .blog_single_img .isotope_gallery li{
+	width:49.5%!important;
+	margin-right:0.1%;
+}
+.blog-page-photogallery ul li, .single-page-photogallery ul li {
+    width: 48.9%;
+}
+
+.bx-wrapper .bx-pager{
+    bottom: 15px;
+}
+.menu > ul > li > a {
+	border:none;
+	padding:5px 0px;
+}
+.active{
+	background:none!important;
+}
+.menu ul{
+	text-align:left;
+	margin-left:35px;
+}
+
+.menu  ul li:before {
+    content: "-";
+    margin-right: 6px;
+	float:left;
+	 margin-top:4px;
+}
+.menu > ul > li:hover > a{
+	background:none!important;
+}
+.nav_prev_item, .nav_next_item {
+    margin-top: -5px;
+}
+.blog-desc-page p{
+	line-height:26px;
+	}
+.filter_portfolio{
+    text-align: inherit;
+}   
+#filter ul li a{
+    padding: 8px 10px;
+} 
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Portfolio
+------------------------------------------------------*/
+ul.portfolio_items li, ul.porfolio_items li, #relatedposts li {
+    width: 49.7% !important;
+}
+.single-page-photogallery
+ ul li {
+    width: 48.92%;
+}
+}

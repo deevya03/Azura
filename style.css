@@ -1,0 +1,729 @@
+/* TABLE OF CONTENT
+	1.LOGO
+	2.DROP CAP
+	3.HOVER LEFT SECTION
+	4.NAV RIGHT SECTION
+	5.SOCIAL ICONS
+	6.SCROLL TOP
+	7.ABOUT PAGE GENERAL STYLE
+	8.SKILLBAR SECTION
+	9.PORTFOLIO GENERAL STYLE
+	10.CONTACT FORM 
+	----------------------------------------------------------------------------------------------------*/
+body, p {
+    font-family: Open Sans !important;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    font-family: Cuprum !important;
+}
+span a{
+    color: #333;
+    font-weight: bold;
+}
+span a:hover{
+    color: #ff0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Cuprum !important;
+}
+
+iframe{
+    width: 100%;
+    border: none;
+}
+#mid_container img{
+	max-width:100%;
+	height:auto;
+    display: block;
+}
+.thumb-img {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+.description {
+	display:block;
+	overflow:hidden;
+}
+
+.vspace {
+	margin:30px 0px;
+	clear: both;
+	display:table;
+}
+
+.alignright {
+	float: right;
+	margin: 3px 0 0px 10px;
+	width:auto;
+}
+.alignleft {
+	float: left;
+	margin:0px 20px 0px 0px;
+	width:auto;
+}
+#mid_container_wrapper h1, #mid_container_wrapper h2, #mid_container_wrapper h3, #mid_container_wrapper h4, #mid_container_wrapper h5, #mid_container_wrapper h6 {
+    color: #333333;
+}
+/* 1. LOGO
+------------------------------------------------------*/
+.logo {
+    line-height: 100%;
+    padding: 0;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px!important;
+    padding: 0 30px;
+    margin-top: 30px;
+}
+.vertical_logo > img {
+    display: block;
+    margin: 30px auto;
+}
+/* 2. DROPCAP SECTION 
+------------------------------------------------------*/
+.drocap_bg{
+    border: 0 solid;
+    border-radius: 4%;
+    color: #ff0000;
+    font-size: 32px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    width: 32px;
+	text-align:center;
+	}
+    .dropcap_bg{
+    border: 0 solid;
+    border-radius: 100%;
+    color: #333;
+    font-size: 32px;
+    height: 16px;
+    line-height: 32px;
+    padding: 0;
+    width: 16px;
+    text-align:center;
+    }
+ .dropcap_bg:hover{
+    background: #333;
+    color: #fff;
+
+ }
+/* 3. HOVER LEFT SECTION
+----------------------------------------------------------------------------------------------------*/
+.mobile_nav_icon{
+    display: none;
+}
+
+header {
+    display: block;
+    height: 100%;
+    position: fixed;
+    z-index: 787878;
+}
+.nav_icon_container{
+    background: none repeat scroll 0 0 #0c151c;
+    float: right;
+    height: 100%;
+    position: relative;
+    width: 60px;
+    z-index: 3;
+    padding: 0px 0 0;
+}
+.nav_toggle {
+    color: #FFFFFF;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.nav_menu_container {
+    background: none repeat scroll 0 0 #282828;
+    float: left;
+    height: 100%;
+    padding: 0 0px;
+    position: relative;
+    width: 260px;
+    margin-left: -300px;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,.02);
+}
+
+.left_toggle_content .contct_info p{
+    color:#718799;
+}
+.nav_menu_container p, .nav_menu_container {
+    color: #718799;
+}
+.nav_menu_container p{
+    padding-bottom:26px;}
+.nav_menu_container{
+    background:#1d2b36;
+}
+
+.left_toggle_content{
+    padding: 30px;
+    position: absolute;
+    bottom: 0%;
+    display: block;
+	padding-left:45px;
+}
+.left_toggle_content p:last-child {
+    padding-bottom: 0;
+}
+.vertical_logo > img {
+    display: block;
+    margin: 30px auto;
+}
+.custom_title{
+	clear: both;
+    display: table;
+    margin-bottom: 25px;
+}
+.title_border_bottom1, .title_border_bottom2{
+	background:#ccc;
+	clear:both;
+	margin-bottom:5px;
+	width:150px;
+	height:1px;
+	float:left;
+	display:block;
+	text-align:left;
+}
+.title_border_bottom2{
+	width:100px!important;
+}
+.title_center{
+	margin:0 auto;
+	text-align:center;
+}
+.custom_title .title_center  .title_border_bottom2{
+	margin:0 auto;
+}
+
+/* 4. NAV RIGHT SECTION
+------------------------------------------------------*/
+
+.sub_header_wrapper {
+    clear: both;
+    margin-left: 60px;
+    padding: 0 50px;
+    position: relative;
+	background: none repeat scroll 0 0 #0c151c;
+}
+.sub_header {
+     padding: 20px 0 !important;
+    text-align: center;
+}
+.sub_header h2{
+    font-size: 1.75em;
+    margin-bottom: 0;
+    text-align: center;
+	color:#fff;
+}
+.single .sub_header h2{
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+}
+.sub_header_wrapper p{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 1.2em;
+    opacity: 0.7;
+    margin-top: 15px;
+    text-align: center;
+}
+/* 5. SOCIAL ICONS
+------------------------------------------------------*/
+.social_icons, .team_social_icon {
+	bottom: 5%;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.team_content_container .team_social_icon  img{
+	margin-bottom:2px!important;
+}
+.social_icons > a, .team_social_icon > a {
+    display: block;
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+.social_icons img {
+    margin: 0 auto;
+}
+.social_icons a:hover, .team_social_icon a:hover {
+    opacity: 0.8;
+}
+.social-sharing-icons{
+    margin-bottom:28px;
+}
+.social-sharing-icons a {
+    background-color: #eaeaea;
+    color: #282828 !important;
+}
+.social-sharing-icons a:hover{
+    color:#ff0000!important;
+}
+.social-sharing-icons a {
+    border-radius: 100%;
+    color: #333;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 6px;
+    padding: 10px;
+    text-align: center;
+    width: 20px;
+}
+
+
+/*6. SCROLL TOP
+....................................................................... */
+
+.scroll_top{
+    bottom: 41px;
+    display: none;
+    opacity: 1;
+    position: fixed;
+    right: 50px;
+    z-index:999;
+}
+.scroll_top i{
+     background-color: #000000;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 16px;
+    padding: 15px;
+    text-align: center;
+    width: 16px;
+}
+
+
+/*7. ABOUT PAGE STYLE
+...................................................................................................*/
+
+.team_content_wrapper {
+    position: relative;
+}
+.team_social_icon {
+    position: absolute;
+    top: 0;
+}
+.about-section{
+	margin-bottom:22px;
+	overflow:hidden;
+}
+ul.about_page li {
+    margin-bottom: 28px;
+}
+.easyPieChart {
+    font-size: 4.5em;
+    position: relative;
+    text-align: center;
+}
+.easyPieChart canvas {
+    border: medium none !important;
+    border-radius: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.chart {
+    clear: both !important;
+    color: #333;
+    display: table;
+    margin: 0 auto;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.chart .label {
+    margin-bottom: 10px;
+}
+.skills {
+    border-radius: 100%;
+    bottom: 0;
+    display: inline-block;
+    height: 180px;
+    line-height: 180px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+}
+.chart, .chart h3 {
+    margin-bottom: 15px;
+	text-align:center;
+}
+.circle_icon {
+    font-size: 48px;
+    left: 0;
+    margin: -24px auto 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+	top:50%;
+}
+.chart_wrapper > p {
+    text-align: center;
+}
+/* 8. SKILLBAR SECTION
+...................................................................................................*/
+
+
+.skillbar{
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 3px;
+    display: block;
+    height: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: width, background-color;
+    transition-timing-function: linear;
+    width: 100%;
+}
+.skillbar_container{
+	margin-bottom:62px!important;
+	overflow:hidden;
+	padding-top:38px;
+	
+}
+.team_content_container img{
+	margin-bottom:16px!important;
+}
+.team_content_container h4{
+	color:#ff0000!important;
+}
+.skillbar-title {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #333333;
+    font-size: 15px;
+    left: 0;
+    position: absolute;
+    top: -35px;
+    z-index: 2;
+}
+.skillbar-bar {
+    background: none repeat scroll 0 0 #6adcfa;
+    border-radius: 3px;
+    height: 10px;
+    width: 0;
+}
+.skillbar-one{
+	width: 95%; 
+	background: none repeat scroll 0px 0px #62b9d8;
+}
+.skillbar-two{
+	width: 85%; 
+	background: none repeat scroll 0px 0px #54c059;
+	
+}
+.skillbar-three{
+	width: 90%; 
+	background: none repeat scroll 0px 0px #f5a500;
+}
+.skillbar-four{
+	width:75%; 
+	background: none repeat scroll 0px 0px #9361ea;
+}
+.skillbar-five	{
+	width:85%; 
+	background: none repeat scroll 0px 0px #ee483b;
+}
+
+.skill-bar-percent {
+    background-color: #000000;
+    border-radius: 3px !important;
+    color: #ffffff !important;
+    font-size: 11px;
+    font-weight: bold;
+    height: 10px;
+    left: 0;
+    line-height: 10px;
+    margin-left: -43px;
+    padding: 10px;
+    position: absolute;
+    top: -38px;
+    z-index: 1;
+	color: rgb(51, 51, 51);
+	 left: 95%;
+}
+.skill-bar-percent:before {
+    border-color: #000000 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 8px;
+    bottom: -14px;
+    content: "";
+    display: table;
+    height: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 0;
+}
+.left_85{
+	left:85%;
+}
+.left_75{
+	left:75%;
+}
+.left_90{
+	left:90%;
+}
+/*9. PORTFOLIO GENERAL STYLE
+.................................................................................... */
+
+.link_to_image{
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    width:35px;
+    z-index: 100;
+    margin-left:-20px;
+    margin-top:0px;
+    display:none;
+    background: none;
+    border: 2px solid #FFFFFF!important;
+    border-radius: 100% !important;
+}
+.link_to_video{
+    background-image: url(../images/video-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    width:35px;
+    z-index: 100;
+    margin-left:-20px;
+    margin-top:0px;
+    display:none;
+    border: 2px solid #FFFFFF!important;
+    border-radius: 100% !important;
+}
+.link_to_post{
+        background-image: url(../images/link_post.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:absolute;
+    height: 35px;
+    border-radius: 20px;
+    width:35px;
+    z-index: 100;
+    margin-left:-20px;
+    margin-top:0px;
+    display:none;
+    border: 2px solid #FFFFFF!important;
+    border-radius: 100% !important;
+}
+.link_to_image:hover, .link_to_post:hover, .link_to_video:hover {
+    background-color: rgba(0,0,0,.3);
+}
+.fullwidth .portfolio-center-page-desc{
+    margin: 0 auto 35px;
+    text-align: center;
+    width: 75%;
+    float:none;
+}
+.portfolio-center-page-desc p, .blog-desc-page p{
+    padding-bottom:35px;
+    font-size:15px;
+}
+
+/* 10. CONTGACT FORM GENERAL STYLES
+----------------------------------------------------------------------------------------------------*/
+#contact-form{
+    position: relative;
+    z-index: 1;
+}
+
+#contact-form p #submit, #commentform #submit  {
+    cursor: pointer;
+    width: auto !important;
+    -webkit-appearance: none;
+     -webkit-border-radius:0
+
+}
+input[type="text"], textarea, input{
+    border:1px solid rgba(127,127,127,.2);
+    background-color:rgba(127,127,127,.1);
+    color: #666;
+	margin-bottom:18px;
+}
+#response {
+	color:#006633;
+	margin-bottom: 30px;
+}
+
+#contact-form input, #contact-form textarea, .respond_box input, .respond_box textarea{
+	background-color: rgba(127, 127, 127, 0.1);
+    border: 1px solid rgba(127, 127, 127, 0.2);
+	color: #333;
+	font-family: Helvetica, sans-serif;
+	margin: 10px 0;
+	padding: 5px;
+}
+#contact-form input {
+	height:32px;
+	width: 95%;
+}
+
+#contact-form textarea {
+	height:150px;
+	width: 98.7%;
+}
+#contact-form textarea:focus, #contact-form input:focus, .respond_box textarea:focus  {
+	border: 1px solid #E1E1E1;
+}
+
+
+
+#contact-form p {
+	padding-bottom: 0 !important;
+}
+#contact-form label {
+	color: #333333;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding-top: 5px;
+	width: 70px;
+}
+.vaidate_error {
+	border: 1px solid #F96E5B !important;
+}
+
+#contact-form div #contact_submit, #contact-form #reset, #submit{
+	background-color: #ff0000;
+	border: medium none;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	height: auto;
+	padding: 10px 20px;
+	width: auto !important;
+}
+#contact-form div #contact_submit:hover, #contact-form #reset:hover, #submit:hover  {
+	background-color: #000 !important;
+	color: #fff !important;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	transition-property: background;
+	transition-timing-function: ease-out;
+}
+
+.testimonial_wrapper{
+	position:relative;
+}
+
+.testimonial_wrapper .description{
+	 background:#f2f2f2;
+    padding: 10px;
+	font-size:18px;
+
+	
+}
+.testmonial .description p{
+	font-style: italic;
+	padding-bottom:0;
+
+}
+ul.skillbar_setup{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+ul.skillbar_setup li{
+	display:block;
+	padding-top:2px;
+}
+.testmonial{
+	margin-bottom:30px;
+}
+
+.testmonial img{
+    border-radius:100%; 
+}
+.sidebar{
+	margin-bottom:20px;
+}
+.sidebar .alignleft{
+	padding:8px;
+	line-height:16px;
+	font-size:16px;
+}
+
+.testimonial_wrapper img {
+    border: 1px solid #ff0000;
+    border-radius: 100%;
+    display: inline-block;
+    height: 75px;
+    overflow: hidden;
+    padding: 2px;
+    width: 75px;
+}
+
+.testimonial_wrapper .description:before {
+    border-color: rgba(0, 0, 0, 0) rgba(204, 204, 204, 0.5) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 12px;
+    content: "";
+    height: 0;
+    left: 77px;
+    position: absolute;
+    width: 0;
+}
+
+#contact-form input, #contact-form textarea, .respond_box input, #commentform textarea {
+    color: #525252;
+    width: 100%;
+    font-size: 13px;
+}
+
+#contact-form textarea{
+	padding-top: 10px;
+}
+
+
+.map{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.map iframe{
+	width:100%;
+	height:450px;
+}
+
+.loader {
+    background: url("images/loader.gif") no-repeat scroll 50% 50% rgb(249, 249, 249);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+} 
